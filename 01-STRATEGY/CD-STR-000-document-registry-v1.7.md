@@ -1,15 +1,18 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.6
+version: 1.7
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
-last_updated: 2026-02-27
+last_updated: 2026-02-28
 approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 1.7
+    date: 2026-02-28
+    summary: PAT-003 (FAQ Document) drafted to v0.1 — 38 questions across 12 categories. Pending OPS-002 dependency reconciliation.
   - version: 1.6
     date: 2026-02-27
     summary: GOV-001 (Clinical Governance Framework) approved and bumped to ACTIVE v1.0. GOV-007 (Infection Control Policy) RETIRED — out of scope for telehealth-only service model. Statistics updated.
@@ -201,7 +204,7 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-PAT-001 | Patient Information Sheet — WorkCover | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
 | CD-PAT-002 | Patient Information Sheet — CTP | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
-| CD-PAT-003 | FAQ Document | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-OPS-002 |
+| CD-PAT-003 | FAQ Document | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-002 |
 | CD-PAT-004 | Post-Consultation Summary Template | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-OPS-008 |
 | CD-PAT-005 | Certificate Explanation Guide | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
 
@@ -227,8 +230,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 3 |
-| DRAFT | 7 |
-| NOT STARTED | 45 |
+| DRAFT | 8 |
+| NOT STARTED | 44 |
 | RETIRED | 1 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
@@ -239,4 +242,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 1.5 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 1.7 · Status: ACTIVE · Visibility: INTERNAL_

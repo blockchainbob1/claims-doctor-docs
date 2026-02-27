@@ -1,7 +1,7 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.5
+version: 1.6
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
@@ -10,6 +10,9 @@ approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 1.6
+    date: 2026-02-27
+    summary: GOV-001 (Clinical Governance Framework) approved and bumped to ACTIVE v1.0. GOV-007 (Infection Control Policy) RETIRED — out of scope for telehealth-only service model. Statistics updated.
   - version: 1.5
     date: 2026-02-27
     summary: Updated OPS-001 (Standard Operating Procedures Master) to DRAFT v0.1. Full draft with three-stage operating model (Pilot/Consolidate/Scale), stage gate criteria, workflow ownership matrix, automation triggers, escalation framework, and metrics.
@@ -158,13 +161,13 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-GOV-001 | Clinical Governance Framework | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
+| CD-GOV-001 | Clinical Governance Framework | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
 | CD-GOV-002 | Credentialing & Privileging Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-GOV-003 | Clinical Protocols / Practice Guidelines | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-GOV-004 | Medical Records Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-LEG-004 |
 | CD-GOV-005 | Incident Reporting & Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-GOV-006 | Medication Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-GOV-007 | Infection Control Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-007 | Infection Control Policy | — | RETIRED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 
 ### LEG — Compliance & Legal
 
@@ -223,9 +226,10 @@ When a document is bumped to a new **major** version, every document that lists 
 | Metric | Count |
 |--------|-------|
 | Total documents registered | 56 |
-| ACTIVE | 2 |
-| DRAFT | 8 |
-| NOT STARTED | 46 |
+| ACTIVE | 3 |
+| DRAFT | 7 |
+| NOT STARTED | 45 |
+| RETIRED | 1 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
 

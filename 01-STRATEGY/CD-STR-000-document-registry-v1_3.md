@@ -1,7 +1,7 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.2
+version: 1.3
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
@@ -10,6 +10,9 @@ approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 1.3
+    date: 2026-02-27
+    summary: Full repo audit. Updated GOV-001 to DRAFT v0.1, MKT-002 to DRAFT v0.2, STR-000 self-reference corrected to v1.3. FIN-002 already tracked at DRAFT v0.1. Statistics corrected.
   - version: 1.2
     date: 2026-02-27
     summary: Updated LEG-011 (Informed Consent Template) to DRAFT v0.1. Consolidates telehealth consent, informed consent, and third-party disclosure into single patient-facing form. Replaces Appendix A of LEG-008.
@@ -91,7 +94,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-STR-000 | Document Registry | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
+| CD-STR-000 | Document Registry | 1.3 | ACTIVE | INTERNAL | Robert Laidlaw | — |
 | CD-STR-001 | Business Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-001, CD-MKT-001 |
 | CD-STR-002 | Lean Canvas / Strategic Summary | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-STR-001 |
 | CD-STR-003 | Competitive Landscape Analysis | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
@@ -111,7 +114,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-MKT-001 | Marketing Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-MKT-003, CD-BRD-001 |
-| CD-MKT-002 | ICP & Persona Profiles | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
+| CD-MKT-002 | ICP & Persona Profiles | 0.2 | DRAFT | INTERNAL | Robert Laidlaw | — |
 | CD-MKT-003 | SEO/GEO Strategy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002 |
 | CD-MKT-004 | Content Calendar / Editorial Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-001, CD-MKT-003 |
 | CD-MKT-005 | Google Ads Playbook | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-FIN-002 |
@@ -149,7 +152,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-GOV-001 | Clinical Governance Framework | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
+| CD-GOV-001 | Clinical Governance Framework | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
 | CD-GOV-002 | Credentialing & Privileging Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-GOV-003 | Clinical Protocols / Practice Guidelines | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-GOV-004 | Medical Records Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-LEG-004 |
@@ -215,8 +218,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 2 |
-| DRAFT | 3 |
-| NOT STARTED | 51 |
+| DRAFT | 6 |
+| NOT STARTED | 48 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
 
@@ -226,4 +229,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 1.2 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 1.3 · Status: ACTIVE · Visibility: INTERNAL_

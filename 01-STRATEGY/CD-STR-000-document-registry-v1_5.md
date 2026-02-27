@@ -1,7 +1,7 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.4
+version: 1.5
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
@@ -10,6 +10,9 @@ approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 1.5
+    date: 2026-02-27
+    summary: Updated OPS-001 (Standard Operating Procedures Master) to DRAFT v0.1. Full draft with three-stage operating model (Pilot/Consolidate/Scale), stage gate criteria, workflow ownership matrix, automation triggers, escalation framework, and metrics.
   - version: 1.4
     date: 2026-02-27
     summary: Updated MKT-005 (Google Ads Playbook) to DRAFT v0.2. Full playbook drafted with campaign architecture, keyword strategy, ad copy, budget model, AHPRA compliance framework. Added CD-BRD-001 as dependency.
@@ -138,7 +141,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-OPS-001 | Standard Operating Procedures (Master) | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-OPS-002 |
+| CD-OPS-001 | Standard Operating Procedures (Master) | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-OPS-002 |
 | CD-OPS-002 | Service Catalogue | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002 |
 | CD-OPS-003 | Patient Intake & Triage SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
 | CD-OPS-004 | Consultation Booking SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
@@ -221,8 +224,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 2 |
-| DRAFT | 7 |
-| NOT STARTED | 47 |
+| DRAFT | 8 |
+| NOT STARTED | 46 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
 
@@ -232,4 +235,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 1.4 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 1.5 · Status: ACTIVE · Visibility: INTERNAL_

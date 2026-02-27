@@ -1,7 +1,7 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.1
+version: 1.2
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
@@ -10,6 +10,9 @@ approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 1.2
+    date: 2026-02-27
+    summary: Updated LEG-011 (Informed Consent Template) to DRAFT v0.1. Consolidates telehealth consent, informed consent, and third-party disclosure into single patient-facing form. Replaces Appendix A of LEG-008.
   - version: 1.1
     date: 2026-02-27
     summary: Updated LEG-004 and LEG-008 to DRAFT status. Moved LEG-008 to correct folder. Added DRAFT count to statistics.
@@ -168,7 +171,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | CD-LEG-008 | Telehealth Consent Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-LEG-009 | Complaints & Feedback Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-LEG-010 | Whistleblower Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
-| CD-LEG-011 | Informed Consent Template | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-LEG-008, CD-GOV-001 |
+| CD-LEG-011 | Informed Consent Template | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-LEG-008, CD-GOV-001 |
 
 ### HR — HR & Team
 
@@ -212,8 +215,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 2 |
-| DRAFT | 2 |
-| NOT STARTED | 52 |
+| DRAFT | 3 |
+| NOT STARTED | 51 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
 
@@ -223,4 +226,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 1.1 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 1.2 · Status: ACTIVE · Visibility: INTERNAL_

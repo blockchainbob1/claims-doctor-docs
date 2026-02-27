@@ -1,7 +1,7 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.0
+version: 1.1
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
@@ -10,6 +10,9 @@ approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 1.1
+    date: 2026-02-27
+    summary: Updated LEG-004 and LEG-008 to DRAFT status. Moved LEG-008 to correct folder. Added DRAFT count to statistics.
   - version: 1.0
     date: 2026-02-27
     summary: Initial registry created with full document inventory
@@ -158,11 +161,11 @@ When a document is bumped to a new **major** version, every document that lists 
 | CD-LEG-001 | AHPRA Advertising Compliance Checklist | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-BRD-001 |
 | CD-LEG-002 | SIRA Compliance Manual | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-003 |
 | CD-LEG-003 | TGA Compliance Checklist | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-BRD-001 |
-| CD-LEG-004 | Privacy Policy (Website) | — | NOT STARTED | EXTERNAL | Robert Laidlaw | — |
+| CD-LEG-004 | Privacy Policy (Website) | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | — |
 | CD-LEG-005 | Patient Privacy & Data Handling Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-LEG-004 |
 | CD-LEG-006 | Terms of Service / Patient Agreement | — | NOT STARTED | EXTERNAL | Robert Laidlaw | — |
 | CD-LEG-007 | Website Terms & Conditions | — | NOT STARTED | EXTERNAL | Robert Laidlaw | — |
-| CD-LEG-008 | Telehealth Consent Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-LEG-008 | Telehealth Consent Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-LEG-009 | Complaints & Feedback Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-LEG-010 | Whistleblower Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
 | CD-LEG-011 | Informed Consent Template | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-LEG-008, CD-GOV-001 |
@@ -209,8 +212,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 2 |
-| DRAFT | 1 |
-| NOT STARTED | 53 |
+| DRAFT | 2 |
+| NOT STARTED | 52 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
 
@@ -220,4 +223,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 1.0 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 1.1 · Status: ACTIVE · Visibility: INTERNAL_

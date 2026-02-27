@@ -96,7 +96,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-FIN-001 | Financial Model | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002 |
-| CD-FIN-002 | Pricing Schedule (SIRA Fee Mapping) | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
+| CD-FIN-002 | Pricing Schedule (SIRA Fee Mapping) | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
 | CD-FIN-003 | Cash Flow Forecast | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-001 |
 | CD-FIN-004 | Startup Cost Register / Budget | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
 
@@ -209,7 +209,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 2 |
-| NOT STARTED | 54 |
+| DRAFT | 1 |
+| NOT STARTED | 53 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |
 

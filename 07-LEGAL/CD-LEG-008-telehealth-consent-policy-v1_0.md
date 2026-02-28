@@ -1,16 +1,30 @@
 ---
 doc_id: CD-LEG-008
 title: Telehealth Consent Policy
-version: 0.1
-status: DRAFT
+version: 1.0
+status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
-last_updated: 2026-02-27
-approved_date: null
-next_review: 2026-08-27
+last_updated: 2026-03-01
+approved_date: 2026-03-01
+next_review: 2026-09-01
 dependencies:
   - CD-GOV-001
 changelog:
+  - version: 1.0
+    date: 2026-03-01
+    summary: >
+      Promoted to ACTIVE. Corrected scope of service statements to reflect
+      limited prescribing within injury management scope (aligning with
+      CD-GOV-001 s09.3 and CD-OPS-001 s08.2). Added SIRA telehealth
+      "in combination" requirement (Part 2, Guidelines for the Provision
+      of Relevant Services) with Claims Doctor's compliance position
+      documented. Aligned phone fallback language with CD-OPS-001 (documented
+      patient-side technical failure only). Cited Surveillance Devices Act
+      2007 (NSW) explicitly in section 4.5. Added Notifiable Data Breaches
+      scheme reference (Part IIIC, Privacy Act 1988) to breach management
+      section. Added NSW Workers Compensation reform standing note (s4.6).
+      Updated related documents to include CD-FIN-002 v1.0.
   - version: 0.1
     date: 2026-02-27
     summary: Initial draft created
@@ -94,15 +108,25 @@ The SIRA Certificate of Capacity/Certificate of Fitness includes a consent secti
 
 Under section 47(5) of the Workplace Injury Management and Workers Compensation Act 1998, the worker must authorise their NTD to provide relevant information to the insurer or employer for injury management purposes. Any further authority beyond this must be given voluntarily.
 
-The SIRA Guidelines for the Provision of Relevant Services require that telehealth must be consented to by the worker and delivered by videoconference unless videoconference is unavailable.
+**Telehealth delivery requirements.** Part 2 of the SIRA Guidelines for the Provision of Relevant Services (Health and Related Services) requires that medical practitioners must provide telehealth services:
+
+- In combination with in-person services, unless the services are pre-approved by the insurer managing the injured person's claim for delivery exclusively by telehealth.
+- By videoconference unless videoconference is unavailable. Email, SMS, or an app may only be used in conjunction with the delivery of telehealth via videoconference.
+- Only if the injured worker requests or consents to participate in a telehealth service.
+
+**Claims Doctor's compliance position.** Claims Doctor provides discrete, episodic assessment and certification services — not ongoing primary care. In the typical Claims Doctor patient pathway, the patient's Nominated Treating Doctor (NTD) provides in-person care, and Claims Doctor provides a supplementary telehealth assessment for the purpose of issuing a Certificate of Capacity or Certificate of Fitness. The "in combination with in-person services" requirement is therefore satisfied by the patient's existing in-person care relationship with their NTD. Where a patient does not have an NTD or is not receiving in-person care from any provider, Claims Doctor will either (a) seek insurer pre-approval for exclusive telehealth delivery, or (b) refer the patient to an appropriate provider for in-person assessment. This position is documented in the patient's clinical record and is consistent with the SIRA requirement.
 
 ### 4.4 Privacy Act 1988 (Cth)
 
 The Australian Privacy Principles (APPs) require that health information be collected with consent, used only for the purpose of collection, and disclosed to third parties only with consent or where authorised by law.
 
-### 4.5 Telecommunications (Interception and Access) Act 1979 (Cth)
+### 4.5 Telecommunications and Surveillance Legislation
 
-Recording of telehealth consultations requires the express consent of all participants. State surveillance laws in NSW also prohibit recording private conversations without consent.
+Recording of telehealth consultations requires the express consent of all participants under the Telecommunications (Interception and Access) Act 1979 (Cth). The Surveillance Devices Act 2007 (NSW) separately prohibits the recording of private conversations without the consent of all parties to the conversation (s7). Both Acts apply to telehealth consultations conducted by Claims Doctor.
+
+### 4.6 NSW Workers Compensation Reform — Standing Note
+
+The Workers Compensation Legislation Amendment Bill 2025 (passed November 2025) and the Workers Compensation Legislation Amendment (Reform and Modernisation) Bill 2025 (passed February 2026) introduce significant changes to the NSW Workers Compensation scheme. As at the date of this document, the commencement dates for many provisions have not yet been proclaimed, and SIRA's regulations and guidelines are being updated. This policy will be reviewed when SIRA publishes updated Guidelines for the Provision of Relevant Services or when the relevant commencement dates are proclaimed, whichever is earlier.
 
 ---
 
@@ -112,9 +136,9 @@ Recording of telehealth consultations requires the express consent of all partic
 
 Before the first telehealth consultation, every patient must be informed of and consent to the following:
 
-1. **Nature of the service.** The consultation will be conducted via real-time video (preferred) or telephone. It is not a substitute for emergency care. If the practitioner determines that the clinical situation requires in-person examination, the patient will be advised to attend a face-to-face consultation with an appropriate provider.
+1. **Nature of the service.** The consultation will be conducted via real-time video (preferred) or telephone. Telephone is permitted only where the patient is unable to connect via video due to a documented technical limitation on the patient's side. The consultation is not a substitute for emergency care. If the practitioner determines that the clinical situation requires in-person examination, the patient will be advised to attend a face-to-face consultation with an appropriate provider.
 
-2. **Scope of service.** Claims Doctor provides assessment and certification for WorkCover and CTP claims. The consultation is focused on functional capacity assessment and issuing the relevant SIRA certificate. Claims Doctor does not provide ongoing primary care, prescribe medications, or manage conditions outside the scope of the claim.
+2. **Scope of service.** Claims Doctor provides assessment and certification for WorkCover and CTP claims. The consultation is focused on functional capacity assessment and issuing the relevant SIRA certificate. Claims Doctor does not provide ongoing primary care or manage conditions outside the scope of the claim. Where clinically appropriate, the practitioner may prescribe medications relevant to the injury being managed under the claim — prescribing is limited to this scope and is governed by CD-GOV-001 s09.3 and CD-GOV-006 (Medication Management Policy).
 
 3. **Limitations of telehealth.** The patient must be informed that telehealth may not provide the same diagnostic capability as a face-to-face consultation. Physical examination is not possible. The practitioner may be unable to detect certain clinical signs. If the practitioner considers the consultation inadequate for safe clinical decision-making, the certificate may not be issued and the patient will be referred for in-person assessment.
 
@@ -128,7 +152,7 @@ Before the first telehealth consultation, every patient must be informed of and 
 
 8. **AI tools consent (if applicable).** If Claims Doctor uses any AI-assisted tools during the consultation (e.g., AI transcription, clinical decision support), the patient must be informed of this and must consent to the tool's use, including how the tool captures and stores information.
 
-9. **Fees.** The patient must be informed of any applicable fees, including whether the consultation is fully funded under the WorkCover/CTP scheme or whether any out-of-pocket costs may apply.
+9. **Fees.** The patient must be informed of any applicable fees, including whether the consultation is fully funded under the WorkCover/CTP scheme or whether any out-of-pocket costs may apply. Current fee schedules are maintained in CD-FIN-002.
 
 10. **Right to withdraw.** The patient may withdraw consent and terminate the consultation at any time without penalty. Withdrawal of consent does not affect the patient's entitlement to seek assessment or certification from another provider.
 
@@ -194,7 +218,7 @@ Consent may be collected via:
 
 ### 6.3 Storage
 
-All consent records — whether digital, scanned, or documented verbal consent — must be stored in the patient's clinical record within the Claims Doctor practice management system. Consent records must be retained for the minimum period required by the HRIP Act and applicable records retention legislation (currently a minimum of 7 years from the date of the last consultation, or until the patient turns 25 if the patient is a minor).
+All consent records — whether digital, scanned, or documented verbal consent — must be stored in the patient's clinical record within the Claims Doctor practice management system (Halaxy). Consent records must be retained for the minimum period required by section 25 of the HRIP Act: 7 years from the date of the last consultation for adults, or until the patient turns 25 if the patient was under 18 at the date of the last consultation.
 
 ### 6.4 Revocation and Amendment
 
@@ -238,9 +262,14 @@ Staff who become aware of an unauthorised disclosure must:
 
 1. Cease the disclosure immediately.
 2. Notify the Claims Doctor Clinical Governance Lead (or equivalent) within 24 hours.
-3. Document the incident in the Claims Doctor incident register.
+3. Document the incident in the Claims Doctor incident register per CD-GOV-005.
 
-The Clinical Governance Lead will assess the breach and determine whether notification to the patient, the Information and Privacy Commission (NSW), the OAIC, or AHPRA is required.
+The Clinical Governance Lead will assess the breach and determine whether notification is required to:
+
+- The affected patient.
+- The Information and Privacy Commission (NSW) — for breaches of the HRIP Act.
+- The Office of the Australian Information Commissioner (OAIC) — for eligible data breaches under the Notifiable Data Breaches (NDB) scheme (Part IIIC, Privacy Act 1988). An eligible data breach exists where unauthorised access to, or disclosure of, personal information is likely to result in serious harm to any individual to whom the information relates.
+- AHPRA — where the breach involves conduct that may constitute a notifiable conduct matter under the Health Practitioner Regulation National Law.
 
 ### 8.2 Failure to Obtain Consent
 
@@ -256,10 +285,14 @@ A consultation conducted without a completed Supplementary Consent Form is a non
 
 | Doc ID | Title | Relationship |
 |--------|-------|-------------|
-| CD-GOV-001 | Clinical Governance Framework | Depends on |
+| CD-GOV-001 | Clinical Governance Framework | Depends on (v1.0 ACTIVE) |
+| CD-GOV-005 | Incident Reporting & Management Policy | Informed by this document (breach reporting) |
+| CD-GOV-006 | Medication Management Policy | Informed by this document (prescribing scope) |
+| CD-FIN-002 | Pricing Schedule (SIRA Fee Mapping) | Informs fee disclosure (v1.0 ACTIVE) |
 | CD-LEG-004 | Privacy Policy (Website) | Informs |
 | CD-LEG-005 | Patient Privacy & Data Handling Policy | Informs |
 | CD-LEG-011 | Informed Consent Template | Depends on this document |
+| CD-OPS-001 | Standard Operating Procedures (Master) | Informed by this document (phone fallback rule) |
 | CD-OPS-003 | Patient Intake & Triage SOP | Informed by this document |
 | CD-OPS-009 | Complaint Handling SOP | Informed by this document |
 
@@ -270,9 +303,8 @@ A consultation conducted without a completed Supplementary Consent Form is a non
 | Role | Name | Date | Signature |
 |------|------|------|-----------|
 | Author | Robert Laidlaw | 2026-02-27 | |
-| Clinical Reviewer | | | |
-| Legal Reviewer | | | |
-| Approver | Robert Laidlaw | | |
+| Reviewer | — | — | — |
+| Approver | Robert Laidlaw | 2026-03-01 | |
 
 ---
 
@@ -310,11 +342,11 @@ claimsdoctor.com.au · ABN 39 674 905 376
 
 I understand and agree to the following:
 
-1. My consultation with a Claims Doctor medical practitioner will be conducted by **real-time video call** (or telephone if video is unavailable). This is not a face-to-face consultation.
+1. My consultation with a Claims Doctor medical practitioner will be conducted by **real-time video call**. Telephone may only be used if I am unable to connect by video due to a technical issue on my end, and this will be documented.
 
 2. The purpose of the consultation is to **assess my functional capacity** in relation to my WorkCover or CTP claim and, where appropriate, to issue a SIRA Certificate of Capacity or Certificate of Fitness.
 
-3. Claims Doctor **does not provide ongoing primary care**, prescribe medications, or manage conditions outside the scope of my claim.
+3. Claims Doctor **does not provide ongoing primary care** or manage conditions outside the scope of my claim. Where clinically appropriate, the practitioner may **prescribe medications limited to the injury being managed** under my claim.
 
 4. Telehealth has **limitations**. Physical examination is not possible. If the doctor determines that an in-person examination is required, I will be advised to attend a face-to-face appointment with an appropriate provider. A certificate may not be issued if the doctor considers the assessment inadequate.
 
@@ -450,4 +482,4 @@ _If signing on behalf of the patient (e.g., as a parent, guardian, or authorised
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-LEG-008 · Version 0.1 · Status: DRAFT · Visibility: INTERNAL (Appendix A: EXTERNAL)_
+_Document ID: CD-LEG-008 · Version 1.0 · Status: ACTIVE · Visibility: INTERNAL (Appendix A: EXTERNAL)_

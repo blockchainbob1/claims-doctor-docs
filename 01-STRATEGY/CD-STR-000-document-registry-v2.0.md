@@ -1,15 +1,18 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 1.9
+version: 2.0
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
-last_updated: 2026-02-28
+last_updated: 2026-03-01
 approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 2.0
+    date: 2026-03-01
+    summary: Registry audit and corrections. FIN-002 promoted to ACTIVE v1.0 (2026 SIRA fees). PAT-002 corrected to ACTIVE v1.0 (was showing 0.2 DRAFT). OPS-001 corrected to v0.2 (was showing v0.1). STR-000 self-reference corrected. Statistics updated — 6 ACTIVE, 8 DRAFT, 41 NOT STARTED, 1 RETIRED.
   - version: 1.9
     date: 2026-02-28
     summary: PAT-001 (Patient Information Sheet — WorkCover) completed and approved to ACTIVE v1.0. PAT-002 (Patient Information Sheet — CTP) drafted to v0.2 with cost policy confirmed. Statistics updated.
@@ -112,7 +115,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-STR-000 | Document Registry | 1.3 | ACTIVE | INTERNAL | Robert Laidlaw | — |
+| CD-STR-000 | Document Registry | 2.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
 | CD-STR-001 | Business Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-001, CD-MKT-001 |
 | CD-STR-002 | Lean Canvas / Strategic Summary | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-STR-001 |
 | CD-STR-003 | Competitive Landscape Analysis | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
@@ -123,7 +126,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-FIN-001 | Financial Model | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002 |
-| CD-FIN-002 | Pricing Schedule (SIRA Fee Mapping) | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
+| CD-FIN-002 | Pricing Schedule (SIRA Fee Mapping) | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
 | CD-FIN-003 | Cash Flow Forecast | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-001 |
 | CD-FIN-004 | Startup Cost Register / Budget | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
 
@@ -153,7 +156,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-OPS-001 | Standard Operating Procedures (Master) | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-OPS-002 |
+| CD-OPS-001 | Standard Operating Procedures (Master) | 0.2 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-OPS-002 |
 | CD-OPS-002 | Service Catalogue | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002 |
 | CD-OPS-003 | Patient Intake & Triage SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
 | CD-OPS-004 | Consultation Booking SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
@@ -209,7 +212,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-PAT-001 | Patient Information Sheet — WorkCover | 1.0 | ACTIVE | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
-| CD-PAT-002 | Patient Information Sheet — CTP | 0.2 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
+| CD-PAT-002 | Patient Information Sheet — CTP | 1.0 | ACTIVE | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
 | CD-PAT-003 | FAQ Document | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-002 |
 | CD-PAT-004 | Post-Consultation Summary Template | 0.2 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-008 |
 | CD-PAT-005 | Certificate Explanation Guide | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
@@ -235,8 +238,8 @@ When a document is bumped to a new **major** version, every document that lists 
 | Metric | Count |
 |--------|-------|
 | Total documents registered | 56 |
-| ACTIVE | 4 |
-| DRAFT | 10 |
+| ACTIVE | 6 |
+| DRAFT | 8 |
 | NOT STARTED | 41 |
 | RETIRED | 1 |
 | EXTERNAL visibility | 10 |
@@ -248,4 +251,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 1.9 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 2.0 · Status: ACTIVE · Visibility: INTERNAL_

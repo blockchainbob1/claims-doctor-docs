@@ -43,7 +43,7 @@ Google Ads is the primary patient acquisition channel pre-revenue. SEO and GEO t
 
 **Channels covered:** Google Search Network only at launch. Display Network, YouTube, Performance Max, and Demand Gen are excluded until Search campaigns are profitable and stable (see Section 16 for expansion criteria).
 
-**What this does NOT cover:** Organic SEO strategy (see CD-MKT-003), social media advertising (see CD-MKT-006), or referral partner marketing (see CD-MKT-007).
+**What this does NOT cover:** Organic SEO strategy (CD-MKT-003), social media advertising (CD-MKT-006), or referral partner marketing (CD-MKT-007).
 
 ---
 
@@ -69,8 +69,8 @@ Google Ads is the primary patient acquisition channel pre-revenue. SEO and GEO t
 
 ### 04.1 Healthcare Advertising Benchmarks (Australia, 2025–26)
 
-| Metric | Healthcare Average | Physicians/Surgeons | Claims Doctor Target |
-|--------|-------------------|---------------------|---------------------|
+| Metric | Healthcare Avg | Physicians/Surgeons | Claims Doctor Target |
+|--------|---------------|--------------------|--------------------|
 | CPC (Search) | $2.50–$4.00 AUD | ~$5.00 AUD | $3.00–$6.00 AUD |
 | CTR (Search) | 3.27% | 6.73% | 5.00%+ |
 | Conversion Rate | 3.36% | 11.62% | 8.00%+ |
@@ -78,21 +78,58 @@ Google Ads is the primary patient acquisition channel pre-revenue. SEO and GEO t
 
 Healthcare has the highest CPM of any industry — roughly double the all-industry average of $17.80. However, physicians and surgeons see strong conversion rates (11.62%), which makes the economics work despite premium CPCs.
 
-The legal services crossover is relevant: personal injury lawyers bid $50–$137+ on WorkCover-adjacent keywords. We are competing for some of the same search intent ("WorkCover claim help", "workers comp doctor") but our CPC ceiling is materially lower because we're a medical service, not a legal one.
+The legal services crossover is relevant: personal injury lawyers bid $50–$137+ on WorkCover-adjacent keywords. We are competing for some of the same search intent but our CPC ceiling is materially lower because we're a medical service, not a legal one.
+
+**Market scale:** Australia processes over 146,700 serious workers' compensation claims per year — more than 400 per day — generating approximately $28.6 billion in annual costs to business. Every claim requires a Certificate of Capacity, renewed every 28 days for the life of the claim. A worker on a 12-month claim needs approximately 13 doctor appointments solely for CoC renewal. (Source: Safe Work Australia, 2025; Sonder, 2026)
+
+**GP access crisis:** Australia faces a GP shortfall of 2,400+ FTE in unmet demand (2024), rising to 8,900+ by 2048. 49% of Australian GPs believe they should be able to refuse compensable patients. GPs cite excessive paperwork, delayed insurer payments, adversarial interactions, and risk of being called as a witness. This structural shortage creates sustained demand for Claims Doctor's same-day telehealth model. (Source: Health Workforce Data, 2024; PubMed, 2019; BMJ Open, 2016)
+
+**Mental health claims explosion:** Mental health claims have grown 161% over 10 years, now representing 12% of serious claims but 38% of total NSW WorkCover cost. Median compensation is $67,400 (4x overall median) with median time lost of 35.7 weeks. Workers wait 4–8 weeks to see a psychologist. Only 40% return to work within 12 months. This creates a growing funnel of complex, long-duration claims requiring repeated CoC renewals — a direct volume driver for Claims Doctor. (Source: Safe Work Australia, 2025)
 
 ### 04.2 Competitive Landscape
 
-**AusRehab** is the dominant paid search competitor in the telehealth WorkCover certificate space. They run on "certificate of capacity", "WorkCover doctor telehealth", and state-by-state variants. Their messaging: 24–48 hour appointments, bulk billing with active claim, telehealth across all states. They have 50+ pages and 30+ blog posts feeding Quality Score through content depth.
+| Provider | States | Telehealth | CoC Same-Day | Price (Worker) | Model |
+|----------|--------|-----------|-------------|---------------|-------|
+| Claims Doctor | NSW | Yes (follow-up) | Yes | $0 (claim req.) | Telehealth-first specialist |
+| AusRehab | All states | Yes | 24-48 hr | Bulk bill | Rehab + GP matching |
+| eMed Specialist | National | Yes (specialist) | No | Insurer billed | Specialist telehealth |
+| Rose Medical | NSW/metro | No | No | Private/insurer | Traditional GP |
+| 1 Health Medical | NSW | No | Yes (walk-in) | Insurer billed | Walk-in WorkCover GP |
+| Doctors on Demand | National | Declined | N/A | $60-90 | No WorkCover |
+| Workers Health Centre | NSW | Partial | Limited | Free (union) | Union-aligned WRP |
 
-**WorkCover Doctor** (workcover.doctor) trades on exact-match brand/keyword domain alignment. 99.7% claim success rate messaging.
+AusRehab is the dominant paid search competitor. They run on "certificate of capacity", "WorkCover doctor telehealth", and state-by-state variants. 50+ pages and 30+ blog posts feed Quality Score. Messaging: 24–48 hour appointments, bulk billing with active claim. WorkCover Doctor (workcover.doctor) trades on exact-match brand/keyword domain alignment. Sydney Injury Doctors plays local SEO in Western Sydney. Doctors on Demand explicitly declined WorkCover — validating the market gap.
 
-**Sydney Injury Doctors** plays local SEO in Western Sydney (Auburn). In-person + telehealth hybrid.
+**Why Claims Doctor wins:**
 
-**Claims Doctor's wedge:** Same-day appointments (not 24–48 hours), SIRA-specialist doctors (not generalists), and digital certificate delivery. Speed is the differentiator. Every ad and landing page must hammer "same-day" because no competitor currently owns that position.
+| Dimension | Claims Doctor | AusRehab (Nearest Competitor) |
+|-----------|--------------|------------------------------|
+| Speed | Same-day video consultation | 24-48 hours |
+| Architecture | Built from ground up for WorkCover | Rehab provider that added GP matching |
+| Doctor expertise | Specialist WorkCover doctors | Matched GPs (variable experience) |
+| Certificate quality | Accurate, compliant, accepted first time | Variable |
+| Cost to worker | $0 with valid claim number | Bulk bill with claim |
+| Telehealth model | Telehealth-first | Hybrid / referral-based |
+
+Every ad and landing page must hammer "same-day" because no competitor currently owns that position. Speed is the wedge.
 
 ### 04.3 Market Education Challenge
 
-There is active misinformation in the market that WorkCover certificates "can't be issued via telehealth." This is factually wrong per SIRA guidelines, but it influences searcher behaviour. Our ads and landing pages must address this objection proactively — not defensively, but with authority. Cite SIRA directly. The content strategy (see claims-doctor-content-strategy.md, Page 19: "WorkCover Telehealth: What You Need to Know") builds the educational landing page for this.
+There is active misinformation in the market that WorkCover certificates "can't be issued via telehealth." This is factually wrong per SIRA guidelines, but it influences searcher behaviour. Our ads and landing pages must address this objection proactively — not defensively, but with authority. Cite SIRA directly.
+
+### 04.4 Referral Partner Context
+
+Google Ads does not operate in isolation. The Referral Partner Acquisition Strategy (CD-MKT-007) identifies five B2B partner categories that create parallel demand for Claims Doctor's services. Google Ads Campaign 4 (B2B-Search-Referral) is designed to capture referral partners who are actively searching for a WorkCover doctor to recommend.
+
+| Partner Category | Volume Potential | Ease of Engagement | Revenue Per Referral | Priority |
+|-----------------|-----------------|-------------------|---------------------|----------|
+| Insurers & Scheme Agents | Very High | Low-Medium | Standard (CoC fees) | CRITICAL |
+| Work Injury Law Firms | High | Medium | High (+ medico-legal) | TIER 1 |
+| Workplace Rehab Providers | High | Medium | Standard (CoC fees) | TIER 1 |
+| Labour Hire Companies | High | Medium | Standard (volume) | TIER 1 |
+| Allied Health / Physio | Medium-High | High | Standard (CoC fees) | TIER 2 |
+
+Key B2B targets include Slater & Gordon, Maurice Blackburn, Shine Lawyers, Turner Freeman, and Carroll & O'Dea (law firms); IPAR, Altius Group, APM WorkCare, and Recovre Group (WRPs); WorkPac, Programmed, Chandler Macleod, and Adecco (labour hire); and icare, EML, Allianz, GIO, and Gallagher Bassett (insurers/CSPs). Ad copy for Campaign 4 is tailored to the documented pain points of each partner category.
 
 ---
 
@@ -103,7 +140,7 @@ There is active misinformation in the market that WorkCover certificates "can't 
 The account follows a tiered architecture: two audience groups (B2C injured workers searching for themselves, and B2B referral partners searching for a service to recommend) with campaigns segmented by service line and intent level.
 
 | Campaign | Audience | Intent | Priority |
-|----------|----------|--------|----------|
+|----------|---------|--------|----------|
 | WC-Search-High-Intent | B2C — Injured workers | Transactional — need a doctor now | 1 (Launch) |
 | CTP-Search-High-Intent | B2C — CTP claimants | Transactional — need a doctor now | 2 (Launch) |
 | WC-Search-Informational | B2C — Injured workers | Research — learning about certificates/claims | 3 (Week 4) |
@@ -118,11 +155,11 @@ Launch with Campaigns 1 and 2 only. Add campaigns 3–5 as budget and landing pa
 |---------|-------|-----------|
 | Network | Search only | No Search Partners, no Display opt-in |
 | Location | New South Wales, Australia | Geo-target NSW only. Exclude all other states. |
-| Location option | "Presence: People in or regularly in your targeted locations" | Exclude "Interest in" to avoid interstate waste |
+| Location option | Presence: People in or regularly in your targeted locations | Exclude "Interest in" to avoid interstate waste |
 | Language | English | — |
-| Bid strategy | Manual CPC (launch) → Target CPA (once 30+ conversions) | Manual for control during learning phase |
-| Ad rotation | Optimise for clicks (launch) → Optimise for conversions (post-learning) | — |
-| Ad schedule | Mon–Fri 7am–9pm, Sat 8am–2pm AEST | Match booking availability; no spend when no one can answer |
+| Bid strategy | Manual CPC (launch) then Target CPA (once 30+ conversions) | Manual for control during learning phase |
+| Ad rotation | Optimise for clicks (launch) then conversions (post-learning) | — |
+| Ad schedule | Mon–Fri 7am–9pm, Sat 8am–2pm AEST | Match booking availability |
 | Device | All devices, no bid adjustments initially | Review device performance at Week 4 |
 
 ---
@@ -136,7 +173,7 @@ This is the money campaign. It targets injured workers (or their family/advocate
 **Ad Group 1A: WorkCover Doctor**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "workcover doctor" |
 | Phrase | "workcover doctor telehealth" |
 | Phrase | "workcover doctor online" |
@@ -151,7 +188,7 @@ This is the money campaign. It targets injured workers (or their family/advocate
 **Ad Group 1B: Certificate of Capacity**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "certificate of capacity" |
 | Phrase | "certificate of capacity doctor" |
 | Phrase | "certificate of capacity telehealth" |
@@ -165,7 +202,7 @@ This is the money campaign. It targets injured workers (or their family/advocate
 **Ad Group 1C: Same-Day / Urgent**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "same day workcover doctor" |
 | Phrase | "urgent workcover appointment" |
 | Phrase | "workcover doctor today" |
@@ -177,7 +214,7 @@ This is the money campaign. It targets injured workers (or their family/advocate
 **Ad Group 1D: Nominated Treating Doctor**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "nominated treating doctor" |
 | Phrase | "change workcover doctor" |
 | Phrase | "choose workcover doctor" |
@@ -190,11 +227,11 @@ This is the money campaign. It targets injured workers (or their family/advocate
 These are critical to prevent waste. Apply to all WC campaigns.
 
 | Category | Negative Keywords |
-|----------|-------------------|
-| Academic/Career | workcover doctor jobs, workcover doctor salary, workcover doctor career, how to become a workcover doctor, workcover doctor training |
-| DIY/Forms | certificate of capacity form download, certificate of capacity PDF, certificate of capacity template, blank certificate of capacity |
-| Insurance/Employer | workcover premium, workcover insurance quote, workcover employer registration, workcover insurance cost |
-| Legal (competing intent) | workcover lawyer, workers comp lawyer, workcover claim lawyer, personal injury lawyer |
+|----------|------------------|
+| Academic / Career | workcover doctor jobs, workcover doctor salary, workcover doctor career, how to become a workcover doctor, workcover doctor training |
+| DIY / Forms | certificate of capacity form download, certificate of capacity PDF, certificate of capacity template, blank certificate of capacity |
+| Insurance / Employer | workcover premium, workcover insurance quote, workcover employer registration, workcover insurance cost |
+| Legal (competing) | workcover lawyer, workers comp lawyer, workcover claim lawyer, personal injury lawyer |
 | Other states | workcover doctor Victoria, workcover doctor Queensland, workcover doctor Melbourne, workcover doctor Brisbane, WorkSafe |
 | Competitor names | AusRehab, Sydney Injury Doctors, WorkCover Doctor (brand term) |
 | Irrelevant medical | workcover dentist, workcover psychologist, workcover physio, workcover chiropractor |
@@ -205,7 +242,7 @@ Review search terms weekly for the first 8 weeks. Add negatives aggressively. Bu
 
 All ad copy must comply with AHPRA advertising restrictions (Section 13). No superlatives, no guaranteed outcomes, no comparative claims.
 
-**Responsive Search Ad 1:**
+**Responsive Search Ad 1**
 
 | Element | Variants |
 |---------|----------|
@@ -231,7 +268,7 @@ All ad copy must comply with AHPRA advertising restrictions (Section 13). No sup
 
 Pin Headline 1 to Position 1. Pin Description 1 to Position 1. Let Google optimise the rest.
 
-**Responsive Search Ad 2:**
+**Responsive Search Ad 2**
 
 | Element | Variants |
 |---------|----------|
@@ -286,7 +323,7 @@ Every landing page must include: a clear headline matching ad copy, a booking CT
 **Ad Group 2A: CTP Doctor**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "CTP doctor" |
 | Phrase | "CTP doctor telehealth" |
 | Phrase | "motor vehicle accident doctor" |
@@ -298,7 +335,7 @@ Every landing page must include: a clear headline matching ad copy, a booking CT
 **Ad Group 2B: Certificate of Fitness**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "certificate of fitness" |
 | Phrase | "certificate of fitness CTP" |
 | Phrase | "CTP medical certificate" |
@@ -308,7 +345,7 @@ Every landing page must include: a clear headline matching ad copy, a booking CT
 **Ad Group 2C: CTP Claim Help**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "CTP claim doctor" |
 | Phrase | "car accident injury doctor" |
 | Phrase | "CTP injury assessment" |
@@ -319,14 +356,14 @@ Every landing page must include: a clear headline matching ad copy, a booking CT
 Same base list as Campaign 1, plus:
 
 | Category | Negative Keywords |
-|----------|-------------------|
+|----------|------------------|
 | Insurance-side | CTP insurance quote, CTP green slip, CTP calculator, CTP insurer, green slip comparison |
 | Legal (competing) | CTP lawyer, car accident lawyer, motor vehicle accident lawyer, personal injury lawyer CTP |
 | Panel beating | car accident repair, car damage, panel beater, car insurance claim |
 
 ### 07.3 Ad Copy — Ad Group 2A: CTP Doctor
 
-**Responsive Search Ad 1:**
+**Responsive Search Ad 1**
 
 | Element | Variants |
 |---------|----------|
@@ -355,21 +392,21 @@ Same base list as Campaign 1, plus:
 | Ad Group | Landing Page | URL |
 |----------|-------------|-----|
 | 2A: CTP Doctor | CTP / Motor Vehicle Accident Doctor | /services/ctp-motor-vehicle-accident-doctor |
-| 2B: Certificate of Fitness | Certificate of Fitness (to be built — redirect to CTP service page until live) | /services/ctp-motor-vehicle-accident-doctor |
+| 2B: Certificate of Fitness | Certificate of Fitness (redirect until live) | /services/ctp-motor-vehicle-accident-doctor |
 | 2C: CTP Claim Help | CTP Claims Guide | /guides/ctp-claims-nsw |
 
 ---
 
 ## 08 Campaign 3 — WC-Search-Informational
 
-Launch at Week 4 once educational landing pages (Priority 3 from content strategy) are live. This campaign targets people researching WorkCover processes who haven't yet decided they need a doctor.
+Launch at Week 4 once educational landing pages are live. This campaign targets people researching WorkCover processes who haven't yet decided they need a doctor.
 
 ### 08.1 Ad Groups & Keywords
 
 **Ad Group 3A: WorkCover Claims Process**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "how to make a workcover claim" |
 | Phrase | "lodge workcover claim NSW" |
 | Phrase | "workcover claim process" |
@@ -379,7 +416,7 @@ Launch at Week 4 once educational landing pages (Priority 3 from content strateg
 **Ad Group 3B: WorkCover Rights & Payments**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "workcover weekly payments" |
 | Phrase | "injured worker rights NSW" |
 | Phrase | "workcover claim denied" |
@@ -389,10 +426,10 @@ Launch at Week 4 once educational landing pages (Priority 3 from content strateg
 
 **Ad Group 3C: WorkCover Telehealth Legitimacy**
 
-This ad group directly addresses the Rose Medical misinformation.
+This ad group directly addresses the telehealth misinformation in the market.
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "workcover telehealth" |
 | Phrase | "can workcover be done via telehealth" |
 | Phrase | "workcover video consultation" |
@@ -420,7 +457,7 @@ Launch at Week 6. Targets B2B referral partners (lawyers, rehab providers, physi
 **Ad Group 4A: Lawyer Referrals**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "workcover doctor for clients" |
 | Phrase | "refer patient workcover doctor" |
 | Phrase | "workcover medical evidence" |
@@ -430,7 +467,7 @@ Launch at Week 6. Targets B2B referral partners (lawyers, rehab providers, physi
 **Ad Group 4B: Employer / Labour Hire**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "workcover doctor for employees" |
 | Phrase | "same day workcover assessment employer" |
 | Phrase | "workplace injury doctor for employers" |
@@ -439,7 +476,7 @@ Launch at Week 6. Targets B2B referral partners (lawyers, rehab providers, physi
 **Ad Group 4C: Allied Health / Physio**
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Phrase | "refer patient for certificate of capacity" |
 | Phrase | "workcover doctor referral for physio" |
 | Phrase | "allied health workcover referral" |
@@ -450,18 +487,43 @@ Launch at Week 6. Targets B2B referral partners (lawyers, rehab providers, physi
 |----------|-------------|-----|
 | 4A | WorkCover Doctor for Lawyers | /for-lawyers |
 | 4B | WorkCover Doctor for Employers | /for-employers |
-| 4C | How It Works (general — build a /for-allied-health page if volume justifies) | /how-it-works |
+| 4C | How It Works (general) | /how-it-works |
 
 ### 09.3 Ad Copy — B2B Angle
 
-The B2B ads speak to the referrer, not the patient. Different pain points, different language.
+The B2B ads speak to the referrer, not the patient. Different pain points, different language. Ad copy is informed by the documented pain points in the Referral Partner Acquisition Strategy (CD-MKT-007).
 
-**Responsive Search Ad — Lawyers:**
+**B2B Pain Points Driving Ad Copy**
 
-| Element | Key Variants |
-|---------|-------------|
+**Law firm pain points:** 4–8+ week waits for IME appointments, difficulty finding WorkCover-experienced GPs willing to complete CoCs correctly, poor or incomplete certificates causing claim delays, administrative burden of chasing insurer approvals and medical evidence.
+
+**Employer / labour hire pain points:** Workers often have no regular GP, workers in remote/FIFO settings face limited GP access, incorrect certificates cause payment delays and worker dissatisfaction, multi-state compliance across 8 distinct schemes.
+
+**Allied health / physio pain points:** Worker's CoC expires between sessions and weekly payments stop, physio needs a specialist/EP/psychology referral only a doctor can issue, treating GP is bulk-booked for 2+ weeks, certificate restrictions don't match actual functional capacity.
+
+**Responsive Search Ad — Lawyers**
+
+| Element | Variants |
+|---------|----------|
 | Headlines | Refer Clients for Same-Day Certificates · Certificate of Capacity — Same Day · WorkCover Medical Evidence, Fast · SIRA-Compliant Certificates for Your Clients · Stop Chasing GPs for Certificates · Claims Doctor — Referral Partner |
-| Descriptions | Your clients need Certificates of Capacity and their GP won't do it. Claims Doctor provides same-day telehealth assessments with SIRA-experienced doctors. Digital certificates. No cost to your client with active claim. · Law firms across NSW refer their WorkCover clients to Claims Doctor. Same-day appointments. SIRA-compliant certificates. No bottleneck, no chasing. |
+| Description 1 | Your clients need Certificates of Capacity and their GP won't do it. Claims Doctor provides same-day telehealth assessments with SIRA-experienced doctors. Digital certificates. No cost to your client with active claim. |
+| Description 2 | Law firms across NSW refer their WorkCover clients to Claims Doctor. Same-day appointments. SIRA-compliant certificates. No bottleneck, no chasing. |
+
+**Responsive Search Ad — Employers / Labour Hire**
+
+| Element | Variants |
+|---------|----------|
+| Headlines | WorkCover Doctor for Your Workers · Same-Day Certificates for Employees · Telehealth WorkCover — Any Location · Stop Workplace Injury Delays · Claims Doctor — Employer Partner · Multi-State WorkCover Solution |
+| Description 1 | Your workers need Certificates of Capacity and can't find a GP. Claims Doctor provides same-day telehealth WorkCover assessments across NSW. Accurate, SIRA-compliant certificates. No worker downtime. |
+| Description 2 | Labour hire, construction, and industrial employers rely on Claims Doctor for fast WorkCover medical assessments. Telehealth access from any location. Single referral point for all your workers. |
+
+**Responsive Search Ad — Allied Health / Physio**
+
+| Element | Variants |
+|---------|----------|
+| Headlines | WorkCover Doctor for Physio Patients · CoC Renewals — Same Day · Refer Your WorkCover Patients · Specialist Referrals Issued Fast · Stop Waiting on GPs · Claims Doctor — Physio Partner |
+| Description 1 | Your WorkCover patient's certificate is expiring and their GP is booked for weeks. Claims Doctor issues Certificates of Capacity same-day via telehealth. Refer your patients, keep their payments flowing. |
+| Description 2 | Need a doctor to issue specialist, EP, or psychology referrals for your WorkCover patients? Claims Doctor provides same-day telehealth consultations. Reciprocal referral arrangements available. |
 
 ---
 
@@ -472,7 +534,7 @@ Launch when brand search volume emerges (check Google Trends and Search Console)
 ### 10.1 Keywords
 
 | Match Type | Keywords |
-|------------|----------|
+|-----------|----------|
 | Exact | [claims doctor] |
 | Exact | [claimsdoctor] |
 | Exact | [claims doctor workcover] |
@@ -490,13 +552,15 @@ Minimal. Brand CPCs are typically $0.30–$0.80. Cap at $5/day initially. Scale 
 ### 11.1 Launch Budget (Month 1–3)
 
 | Campaign | Daily Budget | Monthly Budget | % of Total |
-|----------|-------------|---------------|------------|
+|----------|-------------|---------------|-----------|
 | WC-Search-High-Intent | $50 | $1,500 | 60% |
 | CTP-Search-High-Intent | $25 | $750 | 30% |
 | WC-Search-Informational | $8 | $250 | 10% |
 | **Total** | **$83** | **$2,500** | **100%** |
 
 Campaigns 4 (B2B) and 5 (Brand) added from Month 2 with incremental budget of $250–$500/month.
+
+**Referral strategy alignment:** The 18-month Referral Partner Acquisition Strategy (CD-MKT-007) identifies Google Ads launch as a Phase 2 action (Months 3–6) with a target of $3,000–$5,000/month per state. The playbook begins conservatively at $2,500/month for NSW only, scaling toward the referral strategy target as campaigns prove viable. B2B campaigns (Campaign 4) align with the Foundation and Build phases of the referral strategy, supporting the first 50 outreach targets and 2–3 law firm pilots.
 
 ### 11.2 Unit Economics
 
@@ -505,9 +569,9 @@ These are the numbers that determine whether Google Ads is viable. All figures i
 | Metric | Conservative | Target | Optimistic |
 |--------|-------------|--------|-----------|
 | Average CPC | $5.00 | $3.50 | $2.50 |
-| Conversion Rate (click → booking) | 5% | 8% | 12% |
+| CVR (click to booking) | 5% | 8% | 12% |
 | CPA (cost per booking) | $100.00 | $43.75 | $20.83 |
-| Revenue per initial consultation (AA045T) | $450 | $450 | $450 |
+| Revenue per initial consult (AA045T) | $450 | $450 | $450 |
 | ROAS (first visit only) | 4.5x | 10.3x | 21.6x |
 
 At the target scenario ($3.50 CPC, 8% CVR), every $43.75 spent acquires a patient worth $450 in initial consultation revenue alone. Follow-up consultations at $205 (AA030T) and certificate fees at $64.68 (WCO001) add lifetime value on top.
@@ -545,7 +609,7 @@ Scale by 20% per week maximum. Do not double budgets overnight — it resets the
 ### 12.1 Primary Conversion
 
 | Conversion | Method | Value |
-|------------|--------|-------|
+|-----------|--------|-------|
 | Booking completed | HubSpot booking link click → confirmation page load | $450 (dynamic if possible; static as fallback) |
 
 The booking link on the website triggers a HubSpot scheduling workflow. The confirmation page (post-booking) fires the Google Ads conversion tag.
@@ -553,11 +617,11 @@ The booking link on the website triggers a HubSpot scheduling workflow. The conf
 ### 12.2 Secondary Conversions (Micro-Conversions)
 
 | Conversion | Method | Value |
-|------------|--------|-------|
-| Phone call (30+ seconds) | Google call tracking on call extension and landing page number | $50 (estimated) |
+|-----------|--------|-------|
+| Phone call (30+ sec) | Google call tracking on call extension and landing page number | $50 (estimated) |
 | WhatsApp click | Event tracking on WhatsApp CTA | $20 (estimated) |
 | SMS click | Event tracking on SMS CTA | $20 (estimated) |
-| Guide download (email capture) | Form submission on educational pages | $5 |
+| Guide download (email) | Form submission on educational pages | $5 |
 
 ### 12.3 Attribution Model
 
@@ -599,16 +663,14 @@ AHPRA's advertising guidelines for regulated health services are non-negotiable.
 - Practitioner qualifications that are current and verifiable
 - Process descriptions ("same-day telehealth consultations")
 - Pricing information (when accurate)
-- Patient testimonials about service experience (not clinical outcomes) — e.g., "The booking process was easy and the doctor was thorough"
+- Patient testimonials about service experience (not clinical outcomes)
 - Citing SIRA, legislation, and government sources
 
 ### 13.2 Google Healthcare & Medicines Policy (Australia)
 
-Google requires healthcare advertisers in Australia to comply with additional policies:
-
-1. **Healthcare certification** may be required. Apply via Google Ads account under "Verification" if prompted. Claims Doctor qualifies as a legitimate telehealth medical service.
-2. **No restricted pharmaceutical terms** in ad copy. We don't prescribe medications as a primary service, so this is low risk, but ensure no ad copy mentions specific drugs.
-3. **TGA compliance** for any therapeutic claims. Since we issue certificates (not treatments), TGA risk is minimal. But landing pages must not make therapeutic claims about injury recovery.
+1. Healthcare certification may be required. Apply via Google Ads account under "Verification" if prompted. Claims Doctor qualifies as a legitimate telehealth medical service.
+2. No restricted pharmaceutical terms in ad copy. We don't prescribe medications as a primary service, so this is low risk, but ensure no ad copy mentions specific drugs.
+3. TGA compliance for any therapeutic claims. Since we issue certificates (not treatments), TGA risk is minimal. But landing pages must not make therapeutic claims about injury recovery.
 
 ### 13.3 Ad Copy Review Checklist
 
@@ -646,8 +708,6 @@ Every landing page must include:
 
 ### 14.2 Landing Page Build Priority
 
-Aligned with campaign launch sequence:
-
 | Priority | Page | URL | Campaign |
 |----------|------|-----|----------|
 | 1 | WorkCover Doctor Telehealth | /services/workcover-doctor-telehealth | Campaign 1 |
@@ -671,24 +731,24 @@ Do not launch a campaign until its landing pages are live, loaded, and tested.
 | Search term review | Add negatives for irrelevant queries. Promote high-performing search terms to exact match. |
 | CPC review | Adjust bids on keywords with CPA above target. Increase bids on keywords with CPA below target and room to scale. |
 | Ad performance | Pause any ad variant with CTR below 3% after 1,000 impressions. Replace with new variant. |
-| Budget pacing | Check that daily budget is being fully consumed. If underspending, broaden match types or increase bids. If overspending early in the day, add ad scheduling restrictions. |
+| Budget pacing | Check that daily budget is being fully consumed. If underspending, broaden match types or increase bids. |
 
 ### 15.2 Fortnightly (Every Second Friday)
 
 | Task | Action |
 |------|--------|
 | Quality Score audit | Check QS for all keywords. Any keyword below 5 needs landing page or ad relevance improvement. |
-| Landing page conversion rate | Compare CVR across landing pages. A/B test CTAs, headlines, social proof. |
+| Landing page CVR | Compare CVR across landing pages. A/B test CTAs, headlines, social proof. |
 | Device performance | Review CPA by device (desktop, mobile, tablet). Apply bid adjustments if one device is materially worse. |
-| Geographic performance | Review CPA by region within NSW. Consider bid adjustments for high-performing areas (e.g., Western Sydney for labour hire ICP). |
+| Geographic performance | Review CPA by region within NSW. Consider bid adjustments for high-performing areas. |
 
 ### 15.3 Monthly
 
 | Task | Action |
 |------|--------|
-| Campaign-level CPA and ROAS | Calculate true CPA including no-shows. Report against unit economics in Section 11.2. |
-| Competitive review | Check what competitors are bidding on using Google Ads Auction Insights. Note impression share changes. |
-| New keyword research | Use Google Ads Keyword Planner and Search Console data to identify new keyword opportunities. |
+| CPA and ROAS | Calculate true CPA including no-shows. Report against unit economics in Section 11.2. |
+| Competitive review | Check competitor bids using Google Ads Auction Insights. Note impression share changes. |
+| New keyword research | Use Google Ads Keyword Planner and Search Console to identify new keyword opportunities. |
 | Budget reallocation | Shift budget from underperforming campaigns to outperforming ones. |
 | Ad copy refresh | Write new ad variants for the next month. Retire underperformers. |
 
@@ -730,14 +790,14 @@ Do not expand to new channels or campaign types until the Search foundation is p
 ## 17 Risk Register
 
 | Risk | Impact | Likelihood | Mitigation |
-|------|--------|-----------|------------|
-| AHPRA breach in ad copy | High — prosecution, reputational damage | Low (with checklist) | Every ad reviewed against Section 13 checklist before going live |
-| Google ad disapproval | Medium — campaigns paused | Medium | Pre-check all ads against Google Healthcare policy. Appeal disapprovals within 24 hours. |
-| Competitor bidding war on "workcover doctor" | Medium — CPC inflation | Medium | Maintain Quality Score above 7 to keep CPC competitive. Diversify to long-tail keywords. |
-| Low show rate (<60%) | High — CPA blows out | Medium | SMS + email reminders at booking, 24hr, and 1hr before. WhatsApp confirmation option. |
-| Landing pages not ready at campaign launch | High — wasted spend, low QS | Low (with planning) | Do not activate any campaign until its landing pages are live and tested. |
-| Budget exhaustion before business hours end | Low — missed afternoon conversions | Medium | Use ad scheduling. Review hourly performance data in Week 1. |
-| Rose Medical telehealth misinformation affecting CVR | Medium — searchers hesitate to book telehealth | Medium | Landing pages cite SIRA telehealth guidelines directly. Build /guides/workcover-telehealth-explained as authority page. |
+|------|--------|-----------|-----------|
+| AHPRA breach in ad copy | High | Low (with checklist) | Every ad reviewed against Section 13 checklist before going live |
+| Google ad disapproval | Medium | Medium | Pre-check all ads against Google Healthcare policy. Appeal disapprovals within 24 hours. |
+| Competitor bidding war on "workcover doctor" | Medium | Medium | Maintain Quality Score above 7 to keep CPC competitive. Diversify to long-tail keywords. |
+| Low show rate (<60%) | High | Medium | SMS + email reminders at booking, 24hr, and 1hr before. WhatsApp confirmation option. |
+| Landing pages not ready at launch | High | Low (with planning) | Do not activate any campaign until its landing pages are live and tested. |
+| Budget exhaustion before hours end | Low | Medium | Use ad scheduling. Review hourly performance data in Week 1. |
+| Telehealth misinformation affecting CVR | Medium | Medium | Landing pages cite SIRA telehealth guidelines directly. Build authority page. |
 
 ---
 
@@ -754,7 +814,7 @@ Do not expand to new channels or campaign types until the Search foundation is p
 | Consultations delivered | 20+ | 28+ | 38+ |
 | Revenue (initial consults) | $9,000+ | $12,600+ | $17,100+ |
 | ROAS (first visit only) | 3.6x+ | 5.0x+ | 5.7x+ |
-| Quality Score (primary keywords) | 5+ | 6+ | 7+ |
+| Quality Score (primary) | 5+ | 6+ | 7+ |
 
 Month 1 targets are deliberately conservative. The learning phase eats budget. Don't panic. Optimise aggressively from Week 2.
 
@@ -769,6 +829,7 @@ Month 1 targets are deliberately conservative. The learning phase eats budget. D
 | CD-BRD-001 | Brand & Style Guide | Depends on — visual assets, tone of voice for ad copy |
 | CD-MKT-003 | SEO/GEO Strategy | Informs — keyword overlap, landing page content alignment |
 | CD-MKT-001 | Marketing Plan | Informs — Google Ads is a channel within the broader marketing plan |
+| CD-MKT-007 | Referral Partner Acquisition Strategy | Informs — B2B campaign targeting, partner pain points, phased roadmap alignment |
 | CD-LEG-001 | AHPRA Advertising Compliance Checklist | Informs — compliance requirements codified in Section 13 |
 | CD-OPS-011 | Technology Stack Documentation | Informs — conversion tracking implementation details |
 

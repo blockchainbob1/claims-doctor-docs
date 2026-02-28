@@ -12,7 +12,7 @@ dependencies: []
 changelog:
   - version: 1.9
     date: 2026-02-28
-    summary: PAT-001 (Patient Information Sheet — WorkCover) completed and approved to ACTIVE v1.0. Full patient-facing document covering Certificate of Capacity, appointment preparation, consultation process, post-consult obligations, cost, and patient rights. Statistics updated.
+    summary: PAT-001 (Patient Information Sheet — WorkCover) completed and approved to ACTIVE v1.0. PAT-002 (Patient Information Sheet — CTP) drafted to v0.2 with cost policy confirmed. Statistics updated.
   - version: 1.8
     date: 2026-02-28
     summary: PAT-004 (Post-Consultation Summary Template) drafted to v0.2. Full patient-facing template with merge fields, WorkCover/CTP conditional logic, usage rules, and tech implementation reference. Pending OPS-008 dependency.
@@ -209,7 +209,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-PAT-001 | Patient Information Sheet — WorkCover | 1.0 | ACTIVE | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
-| CD-PAT-002 | Patient Information Sheet — CTP | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
+| CD-PAT-002 | Patient Information Sheet — CTP | 0.2 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
 | CD-PAT-003 | FAQ Document | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-002 |
 | CD-PAT-004 | Post-Consultation Summary Template | 0.2 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-008 |
 | CD-PAT-005 | Certificate Explanation Guide | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
@@ -236,8 +236,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 56 |
 | ACTIVE | 4 |
-| DRAFT | 9 |
-| NOT STARTED | 42 |
+| DRAFT | 10 |
+| NOT STARTED | 41 |
 | RETIRED | 1 |
 | EXTERNAL visibility | 10 |
 | INTERNAL visibility | 46 |

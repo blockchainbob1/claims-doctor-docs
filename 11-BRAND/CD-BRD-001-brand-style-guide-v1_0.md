@@ -1,15 +1,18 @@
 ---
 doc_id: CD-BRD-001
 title: Brand & Style Guide
-version: 1.0
+version: 1.1
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
-last_updated: 2026-02-27
+last_updated: 2026-03-01
 approved_date: 2026-02-27
 next_review: 2026-08-27
 dependencies: []
 changelog:
+  - version: 1.1
+    date: 2026-03-01
+    summary: Added Digital Presence section with official social channels (YouTube, website, email).
   - version: 1.0
     date: 2026-02-27
     summary: First approved version. Full brand system including positioning, visual identity, tone of voice, audience messaging, and regulatory compliance.
@@ -342,7 +345,21 @@ No therapeutic claims about the telehealth service itself. We don't "treat" via 
 
 ---
 
-## 15 Related Documents
+## 15 Digital Presence
+
+Official Claims Doctor channels. All external profiles must use the approved logo, tagline, and brand colours defined in this guide.
+
+| Channel | URL | Handle | Use |
+|---------|-----|--------|-----|
+| Website | https://claimsdoctor.com.au | — | Primary digital presence. All traffic drives here. |
+| YouTube | https://www.youtube.com/@claimsdoctorAu | @claimsdoctorAu | Patient education, service explainers, trust-building content |
+| Email | support@claimsdoctor.com.au | — | Patient and partner enquiries |
+
+New social channels require approval and must be registered in this section before going live. All channel bios must use the primary tagline: "Same-day WorkCover & CTP medical certificates."
+
+---
+
+## 16 Related Documents
 
 | Doc ID | Title | Relationship |
 |--------|-------|-------------|
@@ -359,7 +376,7 @@ No therapeutic claims about the telehealth service itself. We don't "treat" via 
 
 ---
 
-## 16 Review & Approval
+## 17 Review & Approval
 
 | Role | Name | Date | Signature |
 |------|------|------|-----------|

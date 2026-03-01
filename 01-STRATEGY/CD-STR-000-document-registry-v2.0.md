@@ -231,7 +231,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-BRD-001 | Brand & Style Guide | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
+| CD-BRD-001 | Brand & Style Guide | 1.1 | ACTIVE | INTERNAL | Robert Laidlaw | — |
 
 ---
 

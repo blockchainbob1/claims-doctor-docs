@@ -1,7 +1,7 @@
 ---
 doc_id: CD-STR-000
 title: Claims Doctor Document Registry
-version: 2.0
+version: 2.1
 status: ACTIVE
 visibility: INTERNAL
 owner: Robert Laidlaw
@@ -10,6 +10,9 @@ approved_date: 2026-02-27
 next_review: 2026-05-27
 dependencies: []
 changelog:
+  - version: 2.1
+    date: 2026-03-01
+    summary: "Full repo audit. Fixed: statistics corrected (65 total, 7 ACTIVE, 57 DRAFT, 1 RETIRED, 12 EXTERNAL, 53 INTERNAL). Filename convention standardised to underscores (STR-000, GOV-001, LEG-004). LEG-004 duplicate placeholder removed. BRD-001 filename aligned to v1_1 matching frontmatter. Superseded old draft files removed from working tree (preserved in git history). Version file retention policy established: only current version kept on disk."
   - version: 2.0
     date: 2026-03-01
     summary: Registry audit and corrections. FIN-002 promoted to ACTIVE v1.0 (2026 SIRA fees). PAT-002 corrected to ACTIVE v1.0 (was showing 0.2 DRAFT). OPS-001 corrected to v0.2 (was showing v0.1). STR-000 self-reference corrected. Statistics updated — 6 ACTIVE, 8 DRAFT, 41 NOT STARTED, 1 RETIRED.
@@ -117,7 +120,7 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-STR-000 | Claims Doctor Document Registry | 2.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
+| CD-STR-000 | Claims Doctor Document Registry | 2.1 | ACTIVE | INTERNAL | Robert Laidlaw | — |
 | CD-STR-001 | Business Plan | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-FIN-001, CD-MKT-001 |
 | CD-STR-002 | Lean Canvas / Strategic Summary | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-STR-001 |
 | CD-STR-003 | Competitive Landscape Analysis | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
@@ -239,12 +242,12 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Metric | Count |
 |--------|-------|
-| Total documents registered | 66 |
+| Total documents registered | 65 |
 | ACTIVE | 7 |
-| DRAFT | 58 |
+| DRAFT | 57 |
 | RETIRED | 1 |
 | EXTERNAL visibility | 12 |
-| INTERNAL visibility | 54 |
+| INTERNAL visibility | 53 |
 
 <!-- AUTO-GENERATED:END -->
 
@@ -252,4 +255,4 @@ When a document is bumped to a new **major** version, every document that lists 
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010
 
 _This document is the property of Claims Doctor. Unauthorised distribution is prohibited._
-_Document ID: CD-STR-000 · Version 2.0 · Status: ACTIVE · Visibility: INTERNAL_
+_Document ID: CD-STR-000 · Version 2.1 · Status: ACTIVE · Visibility: INTERNAL_

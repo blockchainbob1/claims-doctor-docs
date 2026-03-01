@@ -181,7 +181,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | CD-GOV-004 | Medical Records Management Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-LEG-004 |
 | CD-GOV-005 | Incident Reporting & Management Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 | CD-GOV-006 | Medication Management Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-GOV-007 | Infection Control Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-007 | Infection Control Policy | 0.1 | RETIRED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 
 ### LEG — Compliance & Legal
 
@@ -241,7 +241,8 @@ When a document is bumped to a new **major** version, every document that lists 
 |--------|-------|
 | Total documents registered | 66 |
 | ACTIVE | 7 |
-| DRAFT | 59 |
+| DRAFT | 58 |
+| RETIRED | 1 |
 | EXTERNAL visibility | 12 |
 | INTERNAL visibility | 54 |
 

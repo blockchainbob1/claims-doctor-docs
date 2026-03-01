@@ -2,15 +2,18 @@
 doc_id: CD-GOV-007
 title: "Infection Control Policy"
 version: 0.1
-status: DRAFT
+status: RETIRED
 visibility: INTERNAL
 owner: Robert Laidlaw
-last_updated: 2026-02-27
+last_updated: 2026-03-01
 approved_date: null
-next_review: 2026-08-27
+next_review: null
 dependencies: 
   - CD-GOV-001
 changelog:
+  - version: 0.1
+    date: 2026-03-01
+    summary: Retired — out of scope for telehealth-only service model
   - version: 0.1
     date: 2026-02-27
     summary: Initial draft created

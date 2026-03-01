@@ -150,6 +150,7 @@ When a document is bumped to a new **major** version, every document that lists 
 | CD-MKT-006 | Social Media Strategy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-BRD-001 |
 | CD-MKT-007 | Referral Partner Strategy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-SAL-001 |
 | CD-MKT-008 | Email/SMS Nurture Sequences | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-BRD-001 |
+| CD-MKT-009 | Organic Content Strategy — HubSpot Topic Clusters & Pillar Pages | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-001, CD-MKT-002, CD-MKT-003, CD-MKT-005, CD-BRD-001 |
 
 ### SAL — Sales & Partnerships
 
@@ -246,12 +247,12 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Metric | Count |
 |--------|-------|
-| Total documents registered | 67 |
+| Total documents registered | 68 |
 | ACTIVE | 7 |
-| DRAFT | 59 |
+| DRAFT | 60 |
 | RETIRED | 1 |
 | EXTERNAL visibility | 12 |
-| INTERNAL visibility | 55 |
+| INTERNAL visibility | 56 |
 
 <!-- AUTO-GENERATED:END -->
 

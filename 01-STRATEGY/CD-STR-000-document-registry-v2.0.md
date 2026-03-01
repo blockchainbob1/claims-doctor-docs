@@ -109,103 +109,105 @@ When a document is bumped to a new **major** version, every document that lists 
 
 ---
 
+<!-- AUTO-GENERATED:START -->
+
 ## 04 Document Register
 
 ### STR — Strategy & Planning
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-STR-000 | Document Registry | 2.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
-| CD-STR-001 | Business Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-001, CD-MKT-001 |
-| CD-STR-002 | Lean Canvas / Strategic Summary | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-STR-001 |
-| CD-STR-003 | Competitive Landscape Analysis | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
-| CD-STR-004 | SWOT / Risk Register | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-STR-003 |
+| CD-STR-000 | Claims Doctor Document Registry | 2.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
+| CD-STR-001 | Business Plan | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-FIN-001, CD-MKT-001 |
+| CD-STR-002 | Lean Canvas / Strategic Summary | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-STR-001 |
+| CD-STR-003 | Competitive Landscape Analysis | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
+| CD-STR-004 | SWOT / Risk Register | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-STR-003 |
 
 ### FIN — Financial
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-FIN-001 | Financial Model | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002 |
-| CD-FIN-002 | Pricing Schedule (SIRA Fee Mapping) | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
-| CD-FIN-003 | Cash Flow Forecast | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-001 |
-| CD-FIN-004 | Startup Cost Register / Budget | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
+| CD-FIN-001 | Financial Model | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-FIN-002 |
+| CD-FIN-002 | Pricing Schedule — SIRA Fee Mapping | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
+| CD-FIN-003 | Cash Flow Forecast | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-FIN-001 |
+| CD-FIN-004 | Startup Cost Register / Budget | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
 
 ### MKT — Marketing & Growth
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-MKT-001 | Marketing Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-MKT-003, CD-BRD-001 |
+| CD-MKT-001 | Marketing Plan | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-MKT-003, CD-BRD-001 |
 | CD-MKT-002 | ICP & Persona Profiles | 0.2 | DRAFT | INTERNAL | Robert Laidlaw | — |
-| CD-MKT-003 | SEO/GEO Strategy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002 |
-| CD-MKT-004 | Content Calendar / Editorial Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-001, CD-MKT-003 |
+| CD-MKT-003 | SEO/GEO Strategy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002 |
+| CD-MKT-004 | Content Calendar / Editorial Plan | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-001, CD-MKT-003 |
 | CD-MKT-005 | Google Ads Playbook | 0.2 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-FIN-002, CD-BRD-001 |
-| CD-MKT-006 | Social Media Strategy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-BRD-001 |
-| CD-MKT-007 | Referral Partner Strategy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-SAL-001 |
-| CD-MKT-008 | Email/SMS Nurture Sequences | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-BRD-001 |
+| CD-MKT-006 | Social Media Strategy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-BRD-001 |
+| CD-MKT-007 | Referral Partner Strategy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-SAL-001 |
+| CD-MKT-008 | Email/SMS Nurture Sequences | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002, CD-BRD-001 |
 
 ### SAL — Sales & Partnerships
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-SAL-001 | B2B Sales Playbook | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-002 |
-| CD-SAL-002 | Partner Information Pack / One-Pager | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
-| CD-SAL-003 | Referral Agreement Template | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-LEG-001 |
-| CD-SAL-004 | Case for Partnership Deck | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-SAL-001, CD-BRD-001 |
+| CD-SAL-001 | B2B Sales Playbook | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-002 |
+| CD-SAL-002 | Partner Information Pack / One-Pager | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
+| CD-SAL-003 | Referral Agreement Template | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-LEG-001 |
+| CD-SAL-004 | Case for Partnership Deck | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-SAL-001, CD-BRD-001 |
 
 ### OPS — Operations & Service Delivery
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-OPS-001 | Standard Operating Procedures (Master) | 0.2 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-OPS-002 |
-| CD-OPS-002 | Service Catalogue | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002 |
-| CD-OPS-003 | Patient Intake & Triage SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
-| CD-OPS-004 | Consultation Booking SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
-| CD-OPS-005 | Doctor Onboarding & Credentialing SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-002, CD-OPS-001 |
-| CD-OPS-006 | Certificate Issuance SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001, CD-GOV-003 |
-| CD-OPS-007 | Billing & Invoicing SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-FIN-002, CD-OPS-001 |
-| CD-OPS-008 | Post-Consult Follow-Up SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-001 |
-| CD-OPS-009 | Complaint Handling SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-LEG-008, CD-OPS-001 |
-| CD-OPS-010 | Adverse Event Management SOP | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-005, CD-OPS-001 |
-| CD-OPS-011 | Technology Stack Documentation | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
-| CD-OPS-012 | Business Continuity / Disaster Recovery Plan | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-011 |
+| CD-OPS-002 | Service Catalogue | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-FIN-002 |
+| CD-OPS-003 | Patient Intake & Triage SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-OPS-001 |
+| CD-OPS-004 | Consultation Booking SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-OPS-001 |
+| CD-OPS-005 | Doctor Onboarding & Credentialing SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-002, CD-OPS-001 |
+| CD-OPS-006 | Certificate Issuance SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-OPS-001, CD-GOV-003 |
+| CD-OPS-007 | Billing & Invoicing SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-FIN-002, CD-OPS-001 |
+| CD-OPS-008 | Post-Consult Follow-Up SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-OPS-001 |
+| CD-OPS-009 | Complaint Handling SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-LEG-008, CD-OPS-001 |
+| CD-OPS-010 | Adverse Event Management SOP | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-005, CD-OPS-001 |
+| CD-OPS-011 | Technology Stack Documentation | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
+| CD-OPS-012 | Business Continuity / Disaster Recovery Plan | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-OPS-011 |
 
 ### GOV — Clinical Governance
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
 | CD-GOV-001 | Clinical Governance Framework | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | — |
-| CD-GOV-002 | Credentialing & Privileging Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-GOV-003 | Clinical Protocols / Practice Guidelines | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-GOV-004 | Medical Records Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-LEG-004 |
-| CD-GOV-005 | Incident Reporting & Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-GOV-006 | Medication Management Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-GOV-007 | Infection Control Policy | — | RETIRED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-002 | Credentialing & Privileging Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-003 | Clinical Protocols / Practice Guidelines | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-004 | Medical Records Management Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001, CD-LEG-004 |
+| CD-GOV-005 | Incident Reporting & Management Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-006 | Medication Management Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-GOV-007 | Infection Control Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
 
 ### LEG — Compliance & Legal
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-LEG-001 | AHPRA Advertising Compliance Checklist | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-BRD-001 |
-| CD-LEG-002 | SIRA Compliance Manual | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-003 |
-| CD-LEG-003 | TGA Compliance Checklist | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-BRD-001 |
+| CD-LEG-001 | AHPRA Advertising Compliance Checklist | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-BRD-001 |
+| CD-LEG-002 | SIRA Compliance Manual | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-003 |
+| CD-LEG-003 | TGA Compliance Checklist | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-BRD-001 |
 | CD-LEG-004 | Privacy Policy (Website) | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | — |
-| CD-LEG-005 | Patient Privacy & Data Handling Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-LEG-004 |
-| CD-LEG-006 | Terms of Service / Patient Agreement | — | NOT STARTED | EXTERNAL | Robert Laidlaw | — |
-| CD-LEG-007 | Website Terms & Conditions | — | NOT STARTED | EXTERNAL | Robert Laidlaw | — |
-| CD-LEG-008 | Telehealth Consent Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-LEG-009 | Complaints & Feedback Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-001 |
-| CD-LEG-010 | Whistleblower Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
+| CD-LEG-005 | Patient Privacy & Data Handling Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-LEG-004 |
+| CD-LEG-006 | Terms of Service / Patient Agreement | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | — |
+| CD-LEG-007 | Website Terms & Conditions | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | — |
+| CD-LEG-008 | Telehealth Consent Policy | 1.0 | ACTIVE | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-LEG-009 | Complaints & Feedback Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-001 |
+| CD-LEG-010 | Whistleblower Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
 | CD-LEG-011 | Informed Consent Template | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-LEG-008, CD-GOV-001 |
 
 ### HR — HR & Team
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-HR-001 | Doctor Engagement / Contractor Agreement | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-GOV-002 |
-| CD-HR-002 | Position Descriptions | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
-| CD-HR-003 | Onboarding Checklist (Doctors) | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-OPS-005, CD-GOV-002 |
-| CD-HR-004 | Code of Conduct | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
-| CD-HR-005 | Work Health & Safety Policy | — | NOT STARTED | INTERNAL | Robert Laidlaw | — |
+| CD-HR-001 | Doctor Engagement / Contractor Agreement | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-GOV-002 |
+| CD-HR-002 | Position Descriptions | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
+| CD-HR-003 | Onboarding Checklist (Doctors) | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-OPS-005, CD-GOV-002 |
+| CD-HR-004 | Code of Conduct | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
+| CD-HR-005 | Work Health & Safety Policy | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | — |
 
 ### PAT — Patient-Facing
 
@@ -215,15 +217,15 @@ When a document is bumped to a new **major** version, every document that lists 
 | CD-PAT-002 | Patient Information Sheet — CTP | 1.0 | ACTIVE | EXTERNAL | Robert Laidlaw | CD-OPS-003, CD-BRD-001 |
 | CD-PAT-003 | FAQ Document | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-002 |
 | CD-PAT-004 | Post-Consultation Summary Template | 0.2 | DRAFT | EXTERNAL | Robert Laidlaw | CD-OPS-008 |
-| CD-PAT-005 | Certificate Explanation Guide | — | NOT STARTED | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
+| CD-PAT-005 | Certificate Explanation Guide | 0.1 | DRAFT | EXTERNAL | Robert Laidlaw | CD-BRD-001 |
 
 ### RPT — Reporting & Measurement
 
 | Doc ID | Title | Version | Status | Visibility | Owner | Dependencies |
 |--------|-------|---------|--------|------------|-------|-------------|
-| CD-RPT-001 | KPI Dashboard Specification | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-STR-001 |
-| CD-RPT-002 | Monthly Business Review Template | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-RPT-001 |
-| CD-RPT-003 | Marketing Attribution Model | — | NOT STARTED | INTERNAL | Robert Laidlaw | CD-MKT-001, CD-OPS-011 |
+| CD-RPT-001 | KPI Dashboard Specification | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-STR-001 |
+| CD-RPT-002 | Monthly Business Review Template | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-RPT-001 |
+| CD-RPT-003 | Marketing Attribution Model | 0.1 | DRAFT | INTERNAL | Robert Laidlaw | CD-MKT-001, CD-OPS-011 |
 
 ### BRD — Brand
 
@@ -237,15 +239,13 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Metric | Count |
 |--------|-------|
-| Total documents registered | 56 |
-| ACTIVE | 6 |
-| DRAFT | 8 |
-| NOT STARTED | 41 |
-| RETIRED | 1 |
-| EXTERNAL visibility | 10 |
-| INTERNAL visibility | 46 |
+| Total documents registered | 66 |
+| ACTIVE | 7 |
+| DRAFT | 59 |
+| EXTERNAL visibility | 12 |
+| INTERNAL visibility | 54 |
 
----
+<!-- AUTO-GENERATED:END -->
 
 **Claims Doctor** · claimsdoctor.com.au
 ABN 39 674 905 376 · Level 1/457-459 Elizabeth Street, Surry Hills NSW 2010

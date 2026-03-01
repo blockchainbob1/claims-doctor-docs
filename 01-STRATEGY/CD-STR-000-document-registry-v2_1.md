@@ -242,12 +242,12 @@ When a document is bumped to a new **major** version, every document that lists 
 
 | Metric | Count |
 |--------|-------|
-| Total documents registered | 65 |
+| Total documents registered | 66 |
 | ACTIVE | 7 |
-| DRAFT | 57 |
+| DRAFT | 58 |
 | RETIRED | 1 |
 | EXTERNAL visibility | 12 |
-| INTERNAL visibility | 53 |
+| INTERNAL visibility | 54 |
 
 <!-- AUTO-GENERATED:END -->
 
